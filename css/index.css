@@ -1,0 +1,43 @@
+@@ -0,0 +1,42 @@
+@charset "utf-8";
+
+/* テーブル全体設定 */
+table {
+	font-size: 13px;
+	color: #000;
+	border: 3px solid #ddd;
+	background-color: #fff;
+}
+
+/* キャプション */
+table caption {
+	color: #000;
+}
+
+tr {
+	background-color: #eee;
+}
+
+/* 曜日タイトル行 */
+tr.dow {
+	background-color: #ccc;
+}
+
+td {
+	text-align: center;
+}
+
+/* 祝祭日の文字色 */
+td.hol {
+	color: #dc143c;
+}
+
+/* 日曜日の文字色 */
+td.sun {
+	color: #dc143c;
+}
+
+/* 土曜日の文字色 */
+td.sat {
+	color: #0000cd;
+}
